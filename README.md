@@ -16,3 +16,5 @@ Usage
 =====
 
 Just use the extension method of the HtmlHelper to render the Plupload.Net on the corresponding Location of your UI.
+
+@Html.Plupload()
