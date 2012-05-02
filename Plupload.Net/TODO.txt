@@ -1,0 +1,11 @@
+﻿
+- implement aspect ratio
+- größen anpassbar/konfigurierbar machen
+- plupload logo anzeigen
+- merge configs. verwende die session in verbindung mit einer instanceID.
+- bei großen Dateien kkommt die Fehlermeldung "Maximale Anforderungslänge überschritten." warum?
+- implement cdn switch
+x synchronize loading of jQury
+x preloading einbauen, div konstrukt im preloader script die styles und co anpassen..
+x logging
+x iframe ausbauen

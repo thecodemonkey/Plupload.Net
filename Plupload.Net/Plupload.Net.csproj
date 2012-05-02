@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{927E6D9E-9E0C-4EF4-A33D-B4683BBA9CA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Plupload.Net</RootNamespace>
+    <AssemblyName>Plupload.Net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ControllerBase.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Model\ResizeProperty.cs" />
+    <Compile Include="Model\SaveOptions.cs" />
+    <Compile Include="PluploadContext.cs" />
+    <Compile Include="Extensions\ControllerExtensions.cs" />
+    <Compile Include="Controllers\RessourceController.cs" />
+    <Compile Include="Controllers\PluploadController.cs" />
+    <Compile Include="Extensions\HtmlHelperExtensions.cs" />
+    <Compile Include="Model\ImageResult.cs" />
+    <Compile Include="Model\FileFilter.cs" />
+    <Compile Include="Model\Message.cs" />
+    <Compile Include="Model\PluploadConstants.cs" />
+    <Compile Include="Model\PluploadConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\LogWriter.cs" />
+    <Compile Include="Utils\RessourceHelper.cs" />
+    <Compile Include="SVirtualFile.cs" />
+    <Compile Include="SVirtualPathProvider.cs" />
+    <Compile Include="Utils\XmlSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Plupload\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\jquery-ui-1.8.11.min.js" />
+    <EmbeddedResource Include="Content\css\jquery.plupload.queue.css" />
+    <EmbeddedResource Include="Content\img\backgrounds.gif" />
+    <EmbeddedResource Include="Content\img\buttons-disabled.png" />
+    <EmbeddedResource Include="Content\img\buttons.png" />
+    <EmbeddedResource Include="Content\img\delete.gif" />
+    <EmbeddedResource Include="Content\img\done.gif" />
+    <EmbeddedResource Include="Content\img\error.gif" />
+    <EmbeddedResource Include="Content\img\throbber.gif" />
+    <EmbeddedResource Include="Content\img\transp50.png" />
+    <EmbeddedResource Include="Scripts\jquery.plupload.queue.js" />
+    <EmbeddedResource Include="Scripts\plupload.flash.swf" />
+    <EmbeddedResource Include="Scripts\plupload.full.js" />
+    <EmbeddedResource Include="Scripts\plupload.silverlight.xap" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\jquery-1.7.2.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\css\jquery.lightbox-0.5.css" />
+    <EmbeddedResource Include="Content\img\lightbox-blank.gif" />
+    <EmbeddedResource Include="Content\img\lightbox-btn-close.gif" />
+    <EmbeddedResource Include="Content\img\lightbox-btn-next.gif" />
+    <EmbeddedResource Include="Content\img\lightbox-btn-prev.gif" />
+    <EmbeddedResource Include="Content\img\lightbox-ico-loading.gif" />
+    <EmbeddedResource Include="Scripts\jquery.lightbox-0.5.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\css\plupload.net.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\plupload.net.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\browserplus-min.js" />
+    <EmbeddedResource Include="Scripts\plupload.preload.js" />
+    <Content Include="features.txt" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\IFrameIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Plupload.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Script.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Style.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Plupload.CDN.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

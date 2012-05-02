@@ -1,0 +1,8 @@
+﻿- simple implementation using HtmlHelper Extension Method @Html.Plupload()
+- preview Images with Lightbox 
+- required scripts and styles are included asl embedded resource or as a external cdn resource
+- default, central and instance configuration including fallback
+- script and style collision detection
+- logging
+- debug mode
+- exception handling(throws ex)

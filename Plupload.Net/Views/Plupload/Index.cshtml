@@ -1,0 +1,162 @@
+﻿@using Plupload.Net         
+@using Plupload.Net.Model   
+@using System.Web.Mvc.Html  
+@using System.Web.Mvc
+
+
+@inherits System.Web.Mvc.WebViewPage
+
+@{ PluploadConfiguration config = this.Model as PluploadConfiguration;}
+
+
+<script type="text/javascript">        
+
+    //preloads external stylesheets and scripts
+    //preloads jQuery first if available
+    function StartUpLoadingComplete() {
+        if (typeof (PreloadingContext) != 'undefined')   
+        {
+            document.getElementById('plp_progress_outer').style.display = 'block';
+
+            if (HasResource('@config.JSjQuery')) {
+                    
+                var preloadingJQuery = new PreloadingContext(PreloadingJQueryComplete);
+                preloadingJQuery.AddScript("JSjQuery", "jQuery framework library", null, OnReceiveError, '@Url.Content(config.JSjQuery)');
+                preloadingJQuery.Load(); 
+                                                   
+            }
+            else
+            {
+                PreloadingJQueryComplete();
+            }
+        }
+        else 
+        {
+            StartUpLoadingError('error loading preloading script');
+        }
+    }
+
+    //preloads all scripts and styles
+    function PreloadingJQueryComplete() {
+        var preloadingContext2 = new PreloadingContext(OnAfterPreloading);
+
+        if (HasResource('@config.JSBrowserPlus'))
+            preloadingContext2.AddScript("JSBrowserPlus", "browser plus handling", null, OnReceiveError, '@Url.Content(config.JSBrowserPlus)');
+        
+        if (HasResource('@config.JSPluploadFull'))
+            preloadingContext2.AddScript("JSPluploadFull", "plupload core library", null, OnReceiveError, '@Url.Content(config.JSPluploadFull)');
+
+        if (HasResource('@config.JSPluploadQueue'))
+            preloadingContext2.AddScript("JSPluploadQueue", "plupload queue", null, OnReceiveError, '@Url.Content(config.JSPluploadQueue)');
+        
+        if (HasResource('@config.JSPluploadDotNet'))
+            preloadingContext2.AddScript("JSPluploadDotNet", "plupload dot net client component", null, OnReceiveError, '@Url.Content(config.JSPluploadDotNet)');
+
+        if (HasResource('@config.JSLightbox'))
+            preloadingContext2.AddScript("JSLightbox", "lightbox library", null, OnReceiveError, '@Url.Content(config.JSLightbox)');
+
+        if (HasResource('@config.CSSPluploadQueue'))
+            preloadingContext2.AddStylesheet("pluploadqueue", "plupload queue styles", null, OnReceiveError, '@Url.Content(config.CSSPluploadQueue)');
+
+        if (HasResource('@config.CSSLightBox'))
+            preloadingContext2.AddStylesheet("lightbox", "lightbx styles", null, OnReceiveError, '@Url.Content(config.CSSLightBox)');
+
+        if (HasResource('@config.CSSPluploadDotNet'))
+            preloadingContext2.AddStylesheet("pluploadDotNet", "plupload .net ui customizing", null, OnReceiveError, '@Url.Content(config.CSSPluploadDotNet)');
+        
+        
+        preloadingContext2.Load();            
+    }
+
+    function HasResource(resource)
+    {
+       return (typeof(resource) != 'undefined' && resource != '' && resource != ' ' && resource != 'null');
+    }
+
+    function StartUp() {
+        if (!_alreadyStarted)
+            _alreadyStarted = true;
+        else
+            return;
+
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.OnComplete = StartUpLoadingComplete;
+        script.onerror = StartUpLoadingError;
+
+        if (script.readyState) {  //IE
+            script.onreadystatechange = function () {
+                if (this.readyState == "loaded" || this.readyState == "complete") {
+                    this.onreadystatechange = null;
+                    this.OnComplete();
+                }
+            };
+        } else {  //Others
+            script.onload = function () {
+                this.OnComplete();
+            };
+        }
+
+        script.src = '@Url.Content(config.JSPluploadPreload)';
+        document.getElementsByTagName("head")[0].appendChild(script);
+    }
+
+    function StartUpLoadingError(err) {
+        alert('error:' + err);
+    }
+
+    function OnReceiveError(response, textStatus, errorThrown) {
+        alert("resp: " + response + " | textStatus: " + textStatus + " | errorThrown: " + errorThrown);
+    }
+
+    function OnAfterPreloading() {
+        document.getElementById('plp_progress_outer').style.display = 'none';
+        
+        $("#uploader").pluploadQueue({
+            runtimes: '@config.Runtimes',
+            url: '@Url.Content(config.PluploadServerURL)',
+            max_file_size: '@config.MaxFileSize',
+            multiple_queues: @config.MultipleQueues.ToString().ToLower(),
+            urlstream_upload: @config.URLStreamUpload.ToString().ToLower(),
+            
+            resize: @if(config.Resize != null){ @Html.Raw(config.Resize.ToJSON())},
+            
+            filters: @Html.Raw(config.FileFilters.ToJSON()),
+            flash_swf_url: '@Url.Content(config.Flash)',
+            silverlight_xap_url: '@Url.Content(config.Silverlight)'
+        });
+
+        PLInitialize();
+    }
+
+    var _alreadyStarted = false;
+    window.onDomReady = initReady;
+    function initReady(fn) {
+        if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", fn, false);
+        }
+        else {
+            document.onreadystatechange = function () { readyState(fn) }
+        }
+    }
+
+    function readyState(func) {
+        if (document.readyState == "interactive" || document.readyState == "complete") {
+            func();
+        }
+    }
+    window.onDomReady(StartUp);
+</script>
+
+<div id="uploader">
+    <div id="plp_progress_outer" style="position:absolute;display:none;width:100%;height:100%;left:0px;top:0px;background-color:#ffffff;z-index:999999999;">
+        <div id="plp_progress" style="position:absolute; width:30%; top:40%; left:50%; margin-left:-15%;">
+            <!--<img src="/Content/images/logo_autoonline.gif" style="position:relative; float:right;"/>-->
+            <div id="plp_progress_bar" style="position:relative; left:0px; top:0px; width:100%; height:3px; font-size:3px; background-color:#ccc; clear:both;">
+                <div id="plp_progress_done" style="position:relative; width:0%; height:100%; background-color:#555;"></div>
+            </div>
+            <div id="plp_progress_lable" style="position:relative; width:100%; text-align:left; color:#a0a0a0; font-family:Arial; font-size:12px; padding-top:3px;"></div>
+        </div>
+    </div>
+	<p>You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</p>
+</div>

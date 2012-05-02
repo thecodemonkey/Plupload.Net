@@ -1,0 +1,34 @@
+﻿body
+{
+    padding:0px;
+    margin:0px;    
+}
+
+.srk_image
+{
+    display : inline;    
+    float:left;
+    margin-right:10px;
+}
+
+.srk_image a
+{
+    /*background-image:none !important;*/
+}
+ 
+.srk_image a img
+{
+    border-width:0;    
+}
+
+.plupload_file_name
+{
+    display:inline;
+    float:left;
+}
+ 
+#ifrPlupload
+{
+    position:relative;
+    display:block;
+}
