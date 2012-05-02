@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Plupload.Net.Model
 {
+    /// <summary>
+    /// defines property for automatic resizing of uploaded files
+    /// </summary>
     public class ResizeProperty
     {
         public ResizeProperty() { }
@@ -17,16 +20,32 @@ namespace Plupload.Net.Model
             this.quality = quality;
         }
 
-        //[XmlAttribute("width")]
+        /// <summary>
+        /// gets or sets the target width of the uploaded file
+        /// </summary>
         public int? width { get; set; }
-        //[XmlAttribute("height")]
+
+        /// <summary>
+        /// gets or sets the target height of the uploaded file
+        /// </summary>
         public int? height { get; set; }
-        //[XmlAttribute("quality")]
+
+        /// <summary>
+        /// gets or sets the quality of the uploaded file
+        /// </summary>
         public int? quality { get; set; }
-        //[XmlAttribute("aspectRatio")]
+
+        /// <summary>
+        /// gets or sets the flag if the ratio of the Image should be aspected.
+        /// </summary>
         public bool? AspectRatio { get; set; }
 
 
+        /// <summary>
+        /// merges the current instance of the ResizeProperty with the specific instance given by resize.
+        /// </summary>
+        /// <param name="resize">a specific instance of the ResizeProperty wich should be merged with the current instance</param>
+        /// <returns>merged result</returns>
         public ResizeProperty Merge(ResizeProperty resize)
         {
             if (resize == null) return this;

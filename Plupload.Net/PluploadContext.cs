@@ -44,6 +44,13 @@ namespace Plupload.Net
                 HttpContext.Current.Session[PluploadConstants.REQUEST_CONFIGURATION] = this.Merge(configuration);
         }
 
+        /// <summary>
+        /// gets the merged plupload configuration. 
+        /// There are many levels(default => application => instance), 
+        /// where you can configure the plupload.net. 
+        /// this instance of configuration is merged. You should always working
+        /// with the merged configuration.
+        /// </summary>
         public PluploadConfiguration GetConfiguration() 
         {
             PluploadConfiguration config = HttpContext.Current.Session[PluploadConstants.REQUEST_CONFIGURATION] as PluploadConfiguration;
@@ -103,6 +110,5 @@ namespace Plupload.Net
         {
             return this.MergedConfiguration.Merge(config);
         }
-          
     }
 }

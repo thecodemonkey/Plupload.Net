@@ -9,40 +9,140 @@ using System.Web;
 
 namespace Plupload.Net.Model
 {
+    /// <summary>
+    /// this configuration class defines all settings needed by plupload.
+    /// There are many levels(default/embedded => application => instance), 
+    /// where you can configure the plupload.net. 
+    /// </summary>
     public class PluploadConfiguration
     {
         private static string _plupload_config;
 
+        /// <summary>
+        /// gets or sets the url of the plupload.queue stylesheet file.
+        /// </summary>
         public string CSSPluploadQueue { get; set; }
+        /// <summary>
+        /// gets or sets the url of the plupload.net stylesheet file.
+        /// </summary>
         public string CSSPluploadDotNet { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the lightbox stylesheet file.
+        /// </summary>
         public string CSSLightBox { get; set; }
 
+        /// <summary>
+        /// gets or sets the url of the jQuery script file.
+        /// </summary>
         public string JSjQuery { get; set; }
+        
+        /// <summary>
+        /// gets or sets the url of the jQuery.ui script file.
+        /// </summary>
         public string JSjQueryUI { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the plupload.full script file.
+        /// </summary>
         public string JSPluploadFull { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the plupload.queue script file.
+        /// </summary>
         public string JSPluploadQueue { get; set; }
+        
+        /// <summary>
+        /// gets or sets the url of the plupload.net script file.
+        /// </summary>        
         public string JSPluploadDotNet { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the plupload.preload script file.
+        /// </summary>
         public string JSPluploadPreload { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the lightbox script file.
+        /// </summary>
         public string JSLightbox { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the browserplus script file.
+        /// </summary>
         public string JSBrowserPlus { get; set; }
 
+        /// <summary>
+        /// gets or sets the url of the silverligh file selector file(plupload.silverlight.xap).
+        /// </summary>
         public string Silverlight { get; set; }
+
+        /// <summary>
+        /// gets or sets the url of the flas file selector file(plupload.flash.swf).
+        /// </summary>
         public string Flash { get; set; }
 
+        /// <summary>
+        /// gets or sets the flag for using script and style ressources from the CDN(content delivery network)
+        /// </summary>
         public bool? UseCDN { get; set; }
+
+        /// <summary>
+        /// gets or sets the default Plupload directory path. 
+        /// The path can be an application or a physical path.
+        /// </summary>
         public string UploadDirectory { get; set; }
+
+        /// <summary>
+        /// gets or sets the name of the Directory where are the logfiles should be stored. 
+        /// The path can be an application or a physical path.
+        /// </summary>
         public string LogDirectory { get; set; }
+
+        /// <summary>
+        /// gets or sets the specific saveoptions.
+        /// </summary>
         public SaveOptions SaveOptions { get; set; }
+
+        /// <summary>
+        /// activate or deactivate the debug mode.
+        /// the debug informations will be written only if setting Debug set to tru within the CUSTOM APPLICATION CONFIGURATION!!!
+        /// </summary>
         public bool? Debug { get; set; }
 
-        //plupload js core settings
+        //gets or sets allowed filetypes
         [XmlArrayItem("Filter")]
         public List<FileFilter> FileFilters { get; set; }
+        
+        /// <summary>
+        /// gets or sets available runtimes in specific fallback order
+        /// default: html5,gears,flash,silverlight,browserplus
+        /// </summary>
         public string Runtimes { get; set; }
+        
+        /// <summary>
+        /// gets or sets the url to the Save Action of the PluploadController
+        /// </summary>
         public string PluploadServerURL { get; set; }
+
+        /// <summary>
+        /// gets or sets the maximum allowed size of a single file, wich can be uploaded
+        /// </summary>
         public string MaxFileSize { get; set; }
+
+        /// <summary>
+        /// gets or sets if multipleQueue are activated
+        /// </summary>
         public bool? MultipleQueues { get; set; }
+
+        /// <summary>
+        /// gets or sets if urlstreamuploa is allowed
+        /// </summary>
         public bool? URLStreamUpload { get; set; }
+
+        /// <summary>
+        /// gets or sets the Settings for automatically file resizing
+        /// </summary>
         public ResizeProperty Resize { get; set; }
 
 
@@ -50,6 +150,7 @@ namespace Plupload.Net.Model
         {
             _plupload_config = Path.Combine(GetApplicationBasePath(), "plupload.config");
         }
+
         private static string GetApplicationBasePath()
         {
             string path = string.Empty;
@@ -78,13 +179,24 @@ namespace Plupload.Net.Model
             return path;
         }
 
+        /// <summary>
+        /// gets the physical path of the application specific plupload.config file.
+        /// </summary>
         public static string PluploadConfigPath{ get { return _plupload_config; }}
 
+        /// <summary>
+        /// gets the physical path of the upload directory
+        /// </summary>
+        /// <returns>a physical path</returns>
         public string GetPhysicalUploadPath()
         {
             return this.GetPhysicalPath(this.UploadDirectory);
         }
 
+        /// <summary>
+        /// gets the physical path of the log directory
+        /// </summary>
+        /// <returns>a physical path</returns>
         public string GetPhysicalLogPath()
         {
             return this.GetPhysicalPath(this.LogDirectory);
@@ -92,6 +204,11 @@ namespace Plupload.Net.Model
 
         private static object lockThis = new object();
 
+        /// <summary>
+        /// gets the physical path of specific directory
+        /// </summary>
+        /// <param name="directory"></param>
+        /// <returns></returns>
         private string GetPhysicalPath(string directory)
         {
             string path = directory;

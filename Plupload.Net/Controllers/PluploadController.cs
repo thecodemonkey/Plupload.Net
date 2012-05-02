@@ -11,33 +11,35 @@ using System.Drawing;
 
 namespace Plupload.Net.Controllers
 {
+    /// <summary>
+    /// the main controller for server side handling of plupload component.
+    /// To customize server side handling, just derive from this controller and
+    /// override the needed action or another needed method.
+    /// </summary>
     public class PluploadController : ControllerBase
     {
-        //String[] _imageFiles = new string[] { ".jpg", ".png", ".gif", ".jpeg",".bmp" };
-
+        /// <summary>
+        /// renders the main plupload.net view, included complete UI.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return this.EmbeddedPartialView(PluploadConstants.VIEWS_RAZOR_UPLOAD_INDEX, this.Configuration);
         }
 
+        /// <summary>
+        /// OLD STUFF optionaly IFrame version of the main view.
+        /// </summary>
+        /// <returns></returns>
         public virtual ActionResult IFrame() 
         {
             return this.EmbeddedPartialView(PluploadConstants.VIEWS_RAZOR_UPLOAD_IFRAME_INDEX);
         }
 
-        public virtual ActionResult Script(string path)
-        {
-            this.ViewBag.ResourcePath = path;
-            return this.EmbeddedPartialView(PluploadConstants.VIEWS_RAZOR_UPLOAD_SCRIPT);
-        }
-
-        public virtual ActionResult Style(string path)
-        {
-            this.ViewBag.ResourcePath = path;
-            return this.EmbeddedPartialView(PluploadConstants.VIEWS_RAZOR_UPLOAD_STYLE);
-        }
-
-
+        /// <summary>
+        /// receives and saves a single uploaded file. 
+        /// </summary>
+        /// <returns>a JsonResult with all informations about saving the file.</returns>
         public virtual ActionResult SaveFile()
         {                                           
             LogWriter.Debug("receive uploaded file...");
@@ -49,7 +51,7 @@ namespace Plupload.Net.Controllers
             {                       
                 LogWriter.Debug(String.Format("file '{0}' successfull received.", file.FileName));
 
-                FileInfo fi = GetSaveFileInfo(message, Path.GetFileName(file.FileName));
+                FileInfo fi = GetSaveFileInfo(Path.GetFileName(file.FileName));
                 SaveFileToSystem(message, file, fi);
                 //CreateImagePaths(message, fi);
             }
@@ -61,6 +63,13 @@ namespace Plupload.Net.Controllers
             return Json(message);
         }
 
+        /// <summary>
+        /// saves the file to the filesystem
+        /// </summary>
+        /// <param name="message">will be updated with the informations about the saving process</param>
+        /// <param name="uploadedFile">uploaded file</param>
+        /// <param name="saveFileInfo">fileInfo about saved file. contains the targed as FullPath for the uploaded file.</param>
+        /// <returns>the result of the saving operation</returns>
         protected virtual bool SaveFileToSystem(Message message, HttpPostedFileBase uploadedFile, FileInfo saveFileInfo)
         {
             bool result = false;
@@ -111,7 +120,12 @@ namespace Plupload.Net.Controllers
             return result;
         }
 
-        protected virtual FileInfo GetSaveFileInfo(Message message, String fileName)
+        /// <summary>
+        /// gets the FileInfo for the uploaded file.
+        /// </summary>
+        /// <param name="fileName">the name of the uploaded file</param>
+        /// <returns>file info contains name and fullpathe of the uploaded file, wich shoul be save to the filesystem.</returns>
+        protected virtual FileInfo GetSaveFileInfo(String fileName)
         {
             string path = this.Configuration.GetPhysicalUploadPath();
             string fullPath = Path.Combine(path, fileName);
@@ -119,20 +133,32 @@ namespace Plupload.Net.Controllers
             return result;
         }
 
+        /// <summary>
+        /// creates an image path. this methods handles only files with image specific extensions,
+        /// defined within PluploadConstants.IMAGE_EXTENSIONS
+        /// </summary>
+        /// <param name="message">informations wich will be returned back to the client.</param>
+        /// <param name="saveFileInfo">fileInfo of the uploaded image file</param>
         protected virtual void CreateImagePaths(Message message, FileInfo saveFileInfo)
         {
             if (PluploadConstants.IMAGE_EXTENSIONS.Contains(saveFileInfo.Extension.ToLower()))
             {
                 UrlHelper u = new UrlHelper(this.ControllerContext.RequestContext);
-                string url = u.Action("GetThumbnail", "Ressource", new { imageName = saveFileInfo.Name });
+                string url = u.Action("UploadedImageThumbnail", "Ressource", new { imageName = saveFileInfo.Name });
 
                 message.ThumbPath = url;
-                message.ImagePath = u.Action("GetImageStream", "Ressource", new { imageName = saveFileInfo.Name });
+                message.ImagePath = u.Action("UploadedImage", "Ressource", new { imageName = saveFileInfo.Name });
             }
 
             message.FileName = saveFileInfo.Name;
         }
 
+        /// <summary>
+        /// saves the file to the filesystem.
+        /// </summary>
+        /// <param name="uploadedFile">uploaded file</param>
+        /// <param name="saveFileInfo">contains information about the target location where the uploaded file shoul be saved.</param>
+        /// <returns>a fullpath of the saved file</returns>
         protected string Save(HttpPostedFileBase uploadedFile, FileInfo saveFileInfo) 
         {
             if (PluploadConstants.IMAGE_EXTENSIONS.Contains(saveFileInfo.Extension.ToLower()))

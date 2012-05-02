@@ -9,6 +9,9 @@ using System.Drawing.Imaging;
 
 namespace Plupload.Net.Utils
 {
+    /// <summary>
+    /// provides functionality to handle embedded ressources
+    /// </summary>
     class RessourceHelper
     {
 
@@ -50,6 +53,7 @@ namespace Plupload.Net.Utils
             return assembly.GetManifestResourceStream(resourcePath);
             
         }
+        
         /// <summary>
         ///  extracts an embedded ressource from Plupload.Net assembly
         /// </summary>
