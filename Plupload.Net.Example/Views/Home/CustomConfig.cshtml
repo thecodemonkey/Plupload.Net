@@ -1,0 +1,5 @@
+﻿@using Plupload.Net.Model
+
+<h1>Custom configuration</h1>
+
+@Html.Plupload(new PluploadConfiguration() { FileFilters = new List<FileFilter>() { new FileFilter(){ title = "jpg's only", extensions = "jpg" }} })

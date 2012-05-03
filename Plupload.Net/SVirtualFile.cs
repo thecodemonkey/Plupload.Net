@@ -8,6 +8,9 @@ using System.IO;
 
 namespace Plupload.Net
 {
+    /// <summary>
+    /// resolves virtual paths. it will be used for embedded ressources.
+    /// </summary>
     public class SVirtualFile : VirtualFile
     {
         private string m_path;
@@ -19,6 +22,10 @@ namespace Plupload.Net
             m_path = VirtualPathUtility.ToAppRelative(virtualPath);
         }
 
+        /// <summary>
+        /// gets the stream of the embedded ressource
+        /// </summary>
+        /// <returns></returns>
         public override System.IO.Stream Open()
         {
             lock (lockThis)

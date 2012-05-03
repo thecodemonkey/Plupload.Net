@@ -1,0 +1,38 @@
+﻿.navigation
+{
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 200px; 
+    bottom: 0px; 
+    display: block;        
+    padding-top:30px;
+    padding-left:10px;
+}
+
+.navigation a
+{
+    display:block;
+    clear:both;    
+}
+
+.navigation a:hover
+{
+    color:#f00;    
+}
+
+.content
+{
+    position:absolute;
+    left:200px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+}
+
+#uploader
+{
+    position:relative;
+    min-height:100px;
+    min-width:500px;    
+}

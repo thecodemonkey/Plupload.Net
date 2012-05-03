@@ -18,7 +18,7 @@ namespace System.Web.Mvc.Html
         /// <returns></returns>
         public static MvcHtmlString Plupload<T>(this HtmlHelper<T> html)
         {
-            return Plupload<T>(html, null);
+            return Plupload<T>(html, new PluploadConfiguration());
         }
 
         /// <summary>

@@ -7,3 +7,8 @@
 - debug mode
 - exception handling(throws ex)
 
+Requirements:
+
+- Microsoft .Net Framework 4.0
+- ASP.Net MVC3
+- IIS > 6.0

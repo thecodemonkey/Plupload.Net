@@ -1,0 +1,16 @@
+﻿<html>
+    <head>
+        <title>Plupload.Net - MVC3 example</title>
+        <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/plupload.net.examples.css")" />
+    </head>
+    <body>
+        <div class="navigation">
+            @Html.ActionLink("very simple", "Index", "Home")
+            @Html.ActionLink("instance configuration", "CustomConfig", "Home")
+            @Html.ActionLink("loading per ajax", "AjaxLoading", "Home")
+        </div>
+        <div class="content">
+            @RenderBody()        
+        </div>
+    </body>
+</html>

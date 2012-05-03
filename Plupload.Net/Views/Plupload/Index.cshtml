@@ -1,4 +1,8 @@
-﻿@using Plupload.Net         
+﻿<!--
+The main view of the Plupload.Net
+-->
+
+@using Plupload.Net         
 @using Plupload.Net.Model   
 @using System.Web.Mvc.Html  
 @using System.Web.Mvc
@@ -110,6 +114,7 @@
     }
 
     function OnAfterPreloading() {
+        
         document.getElementById('plp_progress_outer').style.display = 'none';
         
         $("#uploader").pluploadQueue({
@@ -158,5 +163,5 @@
             <div id="plp_progress_lable" style="position:relative; width:100%; text-align:left; color:#a0a0a0; font-family:Arial; font-size:12px; padding-top:3px;"></div>
         </div>
     </div>
-	<p>You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</p>
+	<p style="display:none">You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</p>
 </div>

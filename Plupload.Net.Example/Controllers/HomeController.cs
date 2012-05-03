@@ -12,5 +12,15 @@ namespace Plupload.Net.Example.Controllers
         {
             return View();
         }
+
+        public ActionResult CustomConfig()
+        {
+            return View();
+        }
+
+        public ActionResult AjaxLoading()
+        {
+            return View();
+        }
     }
 }

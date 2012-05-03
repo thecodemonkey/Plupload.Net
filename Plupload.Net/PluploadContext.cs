@@ -12,12 +12,22 @@ using System.IO;
 
 namespace Plupload.Net
 {
+    /// <summary>
+    /// the main context of the plupload component
+    /// PluploadContex is the central(singleton) context, wich
+    /// contains the common funtionality. For example the configuration of plupload.net.
+    /// Use the static Instance property to get the singleton instance of the PluploadContext
+    /// </summary>
     public class PluploadContext
     {
         private static PluploadContext _instance = null;
         private static object lockThis = new object();
 
-        public PluploadContext() 
+        /// <summary>
+        /// creates a new context. 
+        /// loads all configuration files.
+        /// </summary>
+        private PluploadContext() 
         {
             this.CustomConfiguration = XMLSerializer<PluploadConfiguration>.Load();
 
@@ -38,6 +48,12 @@ namespace Plupload.Net
             //LogWriter.Debug("VirtualPathProvider successfull registered.");
         }
 
+        /// <summary>
+        /// sets the instancesspecific configuration.
+        /// this configuration will be merged with the application and global configuration.
+        /// the merged configuration will be stored to the current session.
+        /// </summary>
+        /// <param name="configuration"></param>
         public void SetConfiguration(PluploadConfiguration configuration)
         {
             if (configuration != null)
@@ -60,13 +76,25 @@ namespace Plupload.Net
             return config;
         }
 
+        /// <summary>
+        /// gets or sets the custom-/applicationspecific configuration
+        /// </summary>
         private PluploadConfiguration CustomConfiguration { get; set; }
         
+        /// <summary>
+        /// gets or sets the global/embedded configuration
+        /// </summary>
         private PluploadConfiguration GlobalEmbedConfiguration { get; set; }
         
+        /// <summary>
+        /// gets or sets the merged sessionspecific configuration
+        /// </summary>
         private PluploadConfiguration MergedConfiguration { get; set; }
         
 
+        /// <summary>
+        /// gets the singleton instance of the PluploadContext. If the Instance not exists a new one will be created.
+        /// </summary>
         public static PluploadContext Instance 
         {
             get 
@@ -106,6 +134,11 @@ namespace Plupload.Net
             LogWriter.Debug(String.Format("merged configuration: {0}", this.MergedConfiguration));
         }
 
+        /// <summary>
+        /// merges the configuration given by config witch the current merged configuration.
+        /// </summary>
+        /// <param name="config">the configuration to be merged</param>
+        /// <returns>a merged result a new PluploadConfiguration instance</returns>
         private PluploadConfiguration Merge(PluploadConfiguration config) 
         {
             return this.MergedConfiguration.Merge(config);
