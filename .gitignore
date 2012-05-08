@@ -4,4 +4,7 @@
 +*.obj
 +*.exe
 +*.suo
++*.user
++bin
++obj
 +Uploads
