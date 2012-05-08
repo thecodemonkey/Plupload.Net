@@ -114,3 +114,1027 @@
 03.05.2012 07:43:47 | Debug | file 'invert[1].png' successfull received. #end#
 03.05.2012 07:43:47 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
 03.05.2012 07:43:47 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' was successful saved! #end#
+03.05.2012 18:06:30 | Debug | plupload context initialized: #end#
+03.05.2012 18:06:30 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:06:30 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:06:30 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:06:30 | Debug | create plupload... #end#
+03.05.2012 18:08:15 | Debug | create plupload... #end#
+03.05.2012 18:09:34 | Debug | plupload context initialized: #end#
+03.05.2012 18:09:34 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:09:34 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:09:34 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:09:34 | Debug | create plupload... #end#
+03.05.2012 18:17:30 | Debug | plupload context initialized: #end#
+03.05.2012 18:17:30 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:17:30 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:17:30 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:17:30 | Debug | create plupload... #end#
+03.05.2012 18:29:19 | Debug | plupload context initialized: #end#
+03.05.2012 18:29:19 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:29:19 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:29:19 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:29:19 | Debug | create plupload... #end#
+03.05.2012 18:29:28 | Debug | create plupload... #end#
+03.05.2012 18:30:15 | Debug | plupload context initialized: #end#
+03.05.2012 18:30:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:15 | Debug | create plupload... #end#
+03.05.2012 18:30:25 | Debug | create plupload... #end#
+03.05.2012 18:30:34 | Debug | create plupload... #end#
+03.05.2012 18:30:57 | Debug | plupload context initialized: #end#
+03.05.2012 18:30:57 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:57 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:57 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:30:57 | Debug | create plupload... #end#
+03.05.2012 18:31:04 | Debug | create plupload... #end#
+03.05.2012 18:42:08 | Debug | plupload context initialized: #end#
+03.05.2012 18:42:08 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:42:08 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:42:08 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:42:08 | Debug | create plupload... #end#
+03.05.2012 18:42:09 | Error | c:\Users\ileyberman\AppData\Local\Temp\Temporary ASP.NET Files\root\01180f6a\9c7f282a\App_Web_plupload.net.views.plupload.index.cshtml.9a7d27ca.2vusjq2h.0.cs(320): error CS0103: Der Name "window" ist im aktuellen Kontext nicht vorhanden. :    bei System.Web.Compilation.AssemblyBuilder.Compile()
+   bei System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   bei System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   bei System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bei System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bei System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   bei System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   bei System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   bei System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   bei System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   bei System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   bei System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   bei System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   bei System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bei System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName) #end#
+03.05.2012 18:44:36 | Debug | plupload context initialized: #end#
+03.05.2012 18:44:36 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:44:36 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:44:36 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:44:36 | Debug | create plupload... #end#
+03.05.2012 18:44:50 | Debug | create plupload... #end#
+03.05.2012 18:46:23 | Debug | create plupload... #end#
+03.05.2012 18:46:55 | Debug | create plupload... #end#
+03.05.2012 18:46:55 | Debug | create plupload... #end#
+03.05.2012 18:48:05 | Debug | create plupload... #end#
+03.05.2012 18:49:34 | Debug | create plupload... #end#
+03.05.2012 18:52:53 | Debug | plupload context initialized: #end#
+03.05.2012 18:52:53 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:52:53 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:52:53 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:52:53 | Debug | create plupload... #end#
+03.05.2012 18:52:59 | Debug | create plupload... #end#
+03.05.2012 18:55:30 | Debug | create plupload... #end#
+03.05.2012 18:56:38 | Debug | create plupload... #end#
+03.05.2012 18:57:04 | Debug | plupload context initialized: #end#
+03.05.2012 18:57:04 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:57:04 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:57:04 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+03.05.2012 18:57:04 | Debug | create plupload... #end#
+03.05.2012 18:57:10 | Debug | create plupload... #end#
+03.05.2012 18:57:14 | Debug | create plupload... #end#
+03.05.2012 18:57:14 | Debug | create plupload... #end#
+03.05.2012 18:57:36 | Debug | create plupload... #end#
+03.05.2012 18:58:08 | Debug | create plupload... #end#
+03.05.2012 18:59:13 | Debug | create plupload... #end#
+03.05.2012 19:00:27 | Debug | create plupload... #end#
+03.05.2012 19:01:26 | Debug | create plupload... #end#
+04.05.2012 06:06:07 | Debug | create plupload... #end#
+04.05.2012 06:15:54 | Debug | plupload context initialized: #end#
+04.05.2012 06:15:54 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:15:54 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:15:54 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:15:54 | Debug | create plupload... #end#
+04.05.2012 06:16:04 | Debug | create plupload... #end#
+04.05.2012 06:17:09 | Debug | plupload context initialized: #end#
+04.05.2012 06:17:09 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:17:09 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:17:09 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:17:09 | Debug | create plupload... #end#
+04.05.2012 06:23:11 | Debug | plupload context initialized: #end#
+04.05.2012 06:23:11 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:23:11 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:23:11 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:23:11 | Debug | create plupload... #end#
+04.05.2012 06:24:24 | Debug | create plupload... #end#
+04.05.2012 06:28:01 | Debug | plupload context initialized: #end#
+04.05.2012 06:28:01 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:28:01 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:28:01 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:28:01 | Debug | create plupload... #end#
+04.05.2012 06:33:19 | Debug | plupload context initialized: #end#
+04.05.2012 06:33:19 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:33:19 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:33:19 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:33:19 | Debug | create plupload... #end#
+04.05.2012 06:33:25 | Debug | create plupload... #end#
+04.05.2012 06:37:12 | Debug | plupload context initialized: #end#
+04.05.2012 06:37:12 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:37:12 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:37:12 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:37:12 | Debug | create plupload... #end#
+04.05.2012 06:37:17 | Debug | create plupload... #end#
+04.05.2012 06:41:06 | Debug | plupload context initialized: #end#
+04.05.2012 06:41:06 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:41:06 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:41:06 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:41:06 | Debug | create plupload... #end#
+04.05.2012 06:41:23 | Debug | receive uploaded file... #end#
+04.05.2012 06:41:23 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+04.05.2012 06:41:23 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+04.05.2012 06:41:23 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+04.05.2012 06:41:23 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+04.05.2012 06:41:23 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_111.jpg' was successful saved! #end#
+04.05.2012 06:41:23 | Debug | receive uploaded file... #end#
+04.05.2012 06:41:23 | Debug | file 'desktop.ini' successfull received. #end#
+04.05.2012 06:41:23 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+04.05.2012 06:41:23 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+04.05.2012 06:41:23 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop1.ini' was successful saved! #end#
+04.05.2012 06:41:24 | Debug | receive uploaded file... #end#
+04.05.2012 06:41:24 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+04.05.2012 06:41:24 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+04.05.2012 06:41:24 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+04.05.2012 06:41:24 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+04.05.2012 06:41:24 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück111.jpg' was successful saved! #end#
+04.05.2012 06:41:24 | Debug | receive uploaded file... #end#
+04.05.2012 06:41:24 | Debug | file 'invert[1].png' successfull received. #end#
+04.05.2012 06:41:24 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+04.05.2012 06:41:24 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+04.05.2012 06:41:24 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]1.png' was successful saved! #end#
+04.05.2012 06:44:08 | Debug | plupload context initialized: #end#
+04.05.2012 06:44:08 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:44:08 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:44:08 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:44:08 | Debug | create plupload... #end#
+04.05.2012 06:44:33 | Debug | create plupload... #end#
+04.05.2012 06:45:22 | Debug | plupload context initialized: #end#
+04.05.2012 06:45:22 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:45:22 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:45:22 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:45:22 | Debug | create plupload... #end#
+04.05.2012 06:45:30 | Debug | create plupload... #end#
+04.05.2012 06:45:33 | Debug | create plupload... #end#
+04.05.2012 06:45:52 | Debug | create plupload... #end#
+04.05.2012 06:46:39 | Debug | create plupload... #end#
+04.05.2012 06:52:53 | Debug | plupload context initialized: #end#
+04.05.2012 06:52:53 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:52:53 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:52:53 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:52:53 | Debug | create plupload... #end#
+04.05.2012 06:57:54 | Debug | plupload context initialized: #end#
+04.05.2012 06:57:54 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:57:54 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:57:54 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:57:54 | Debug | create plupload... #end#
+04.05.2012 06:59:15 | Debug | plupload context initialized: #end#
+04.05.2012 06:59:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:59:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:59:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 06:59:15 | Debug | create plupload... #end#
+04.05.2012 06:59:47 | Debug | create plupload... #end#
+04.05.2012 07:02:02 | Debug | plupload context initialized: #end#
+04.05.2012 07:02:02 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:02 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:02 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:02 | Debug | create plupload... #end#
+04.05.2012 07:02:38 | Debug | plupload context initialized: #end#
+04.05.2012 07:02:38 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:38 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:38 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:02:38 | Debug | create plupload... #end#
+04.05.2012 07:02:52 | Debug | receive uploaded file... #end#
+04.05.2012 07:02:52 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+04.05.2012 07:02:52 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+04.05.2012 07:02:52 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1111.jpg' was successful saved! #end#
+04.05.2012 07:02:52 | Debug | receive uploaded file... #end#
+04.05.2012 07:02:52 | Debug | file 'desktop.ini' successfull received. #end#
+04.05.2012 07:02:52 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+04.05.2012 07:02:52 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'desktop1.ini' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop11.ini' was successful saved! #end#
+04.05.2012 07:02:52 | Debug | receive uploaded file... #end#
+04.05.2012 07:02:52 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+04.05.2012 07:02:52 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+04.05.2012 07:02:52 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1111.jpg' was successful saved! #end#
+04.05.2012 07:02:52 | Debug | receive uploaded file... #end#
+04.05.2012 07:02:52 | Debug | file 'invert[1].png' successfull received. #end#
+04.05.2012 07:02:52 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+04.05.2012 07:02:52 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+04.05.2012 07:02:52 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]11.png' was successful saved! #end#
+04.05.2012 07:08:34 | Debug | plupload context initialized: #end#
+04.05.2012 07:08:34 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:08:34 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:08:34 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+04.05.2012 07:08:34 | Debug | create plupload... #end#
+04.05.2012 07:08:46 | Debug | receive uploaded file... #end#
+04.05.2012 07:08:46 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+04.05.2012 07:08:46 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+04.05.2012 07:08:46 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_11111.jpg' was successful saved! #end#
+04.05.2012 07:08:46 | Debug | receive uploaded file... #end#
+04.05.2012 07:08:46 | Debug | file 'desktop.ini' successfull received. #end#
+04.05.2012 07:08:46 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+04.05.2012 07:08:46 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'desktop1.ini' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'desktop11.ini' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop111.ini' was successful saved! #end#
+04.05.2012 07:08:46 | Debug | receive uploaded file... #end#
+04.05.2012 07:08:46 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+04.05.2012 07:08:46 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+04.05.2012 07:08:46 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück11111.jpg' was successful saved! #end#
+04.05.2012 07:08:46 | Debug | receive uploaded file... #end#
+04.05.2012 07:08:46 | Debug | file 'invert[1].png' successfull received. #end#
+04.05.2012 07:08:46 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+04.05.2012 07:08:46 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+04.05.2012 07:08:46 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]111.png' was successful saved! #end#
+04.05.2012 07:08:56 | Debug | create plupload... #end#
+05.05.2012 18:10:01 | Debug | plupload context initialized: #end#
+05.05.2012 18:10:01 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:10:01 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:10:01 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:10:01 | Debug | create plupload... #end#
+05.05.2012 18:10:40 | Debug | receive uploaded file... #end#
+05.05.2012 18:10:40 | Debug | file 'Chrysanthemum.jpg' successfull received. #end#
+05.05.2012 18:10:40 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Chrysanthemum.jpg' #end#
+05.05.2012 18:10:40 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Chrysanthemum.jpg' was successful saved! #end#
+05.05.2012 18:10:40 | Debug | receive uploaded file... #end#
+05.05.2012 18:10:40 | Debug | file 'Desert.jpg' successfull received. #end#
+05.05.2012 18:10:40 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Desert.jpg' #end#
+05.05.2012 18:10:40 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Desert.jpg' was successful saved! #end#
+05.05.2012 18:10:41 | Debug | receive uploaded file... #end#
+05.05.2012 18:10:41 | Debug | file 'desktop.ini' successfull received. #end#
+05.05.2012 18:10:41 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+05.05.2012 18:10:41 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+05.05.2012 18:10:41 | Debug | file 'desktop1.ini' already exists, increase nameindex #end#
+05.05.2012 18:10:41 | Debug | file 'desktop11.ini' already exists, increase nameindex #end#
+05.05.2012 18:10:41 | Debug | file 'desktop111.ini' already exists, increase nameindex #end#
+05.05.2012 18:10:41 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop1111.ini' was successful saved! #end#
+05.05.2012 18:10:41 | Debug | receive uploaded file... #end#
+05.05.2012 18:10:41 | Debug | file 'Hydrangeas.jpg' successfull received. #end#
+05.05.2012 18:10:41 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Hydrangeas.jpg' #end#
+05.05.2012 18:10:41 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Hydrangeas.jpg' was successful saved! #end#
+05.05.2012 18:24:35 | Debug | plupload context initialized: #end#
+05.05.2012 18:24:35 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:24:35 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:24:35 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:24:35 | Debug | create plupload... #end#
+05.05.2012 18:25:08 | Debug | create plupload... #end#
+05.05.2012 18:27:55 | Debug | plupload context initialized: #end#
+05.05.2012 18:27:55 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:27:55 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:27:55 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:27:55 | Debug | create plupload... #end#
+05.05.2012 18:28:01 | Debug | create plupload... #end#
+05.05.2012 18:32:42 | Debug | plupload context initialized: #end#
+05.05.2012 18:32:42 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:32:42 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:32:42 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:32:42 | Debug | create plupload... #end#
+05.05.2012 18:32:46 | Debug | create plupload... #end#
+05.05.2012 18:33:02 | Debug | create plupload... #end#
+05.05.2012 18:33:11 | Debug | create plupload... #end#
+05.05.2012 18:33:13 | Debug | create plupload... #end#
+05.05.2012 18:36:15 | Debug | plupload context initialized: #end#
+05.05.2012 18:36:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:36:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:36:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:36:15 | Debug | create plupload... #end#
+05.05.2012 18:36:19 | Debug | create plupload... #end#
+05.05.2012 18:37:06 | Debug | plupload context initialized: #end#
+05.05.2012 18:37:06 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:37:06 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:37:06 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:37:06 | Debug | create plupload... #end#
+05.05.2012 18:37:10 | Debug | create plupload... #end#
+05.05.2012 18:39:14 | Debug | plupload context initialized: #end#
+05.05.2012 18:39:14 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:39:14 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:39:14 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:39:14 | Debug | create plupload... #end#
+05.05.2012 18:39:17 | Debug | create plupload... #end#
+05.05.2012 18:39:24 | Debug | create plupload... #end#
+05.05.2012 18:40:25 | Debug | plupload context initialized: #end#
+05.05.2012 18:40:25 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:40:25 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:40:25 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:40:25 | Debug | create plupload... #end#
+05.05.2012 18:40:30 | Debug | create plupload... #end#
+05.05.2012 18:41:12 | Debug | plupload context initialized: #end#
+05.05.2012 18:41:12 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:41:12 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:41:12 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:41:12 | Debug | create plupload... #end#
+05.05.2012 18:41:15 | Debug | create plupload... #end#
+05.05.2012 18:42:35 | Debug | create plupload... #end#
+05.05.2012 18:44:27 | Debug | plupload context initialized: #end#
+05.05.2012 18:44:27 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:44:27 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:44:27 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:44:27 | Debug | create plupload... #end#
+05.05.2012 18:45:46 | Debug | plupload context initialized: #end#
+05.05.2012 18:45:46 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:45:46 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:45:46 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:45:46 | Debug | create plupload... #end#
+05.05.2012 18:45:55 | Debug | create plupload... #end#
+05.05.2012 18:48:08 | Debug | plupload context initialized: #end#
+05.05.2012 18:48:08 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:48:08 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:48:08 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:48:08 | Debug | create plupload... #end#
+05.05.2012 18:48:31 | Debug | create plupload... #end#
+05.05.2012 18:49:07 | Debug | plupload context initialized: #end#
+05.05.2012 18:49:07 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:49:07 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:49:07 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:49:07 | Debug | create plupload... #end#
+05.05.2012 18:49:14 | Debug | create plupload... #end#
+05.05.2012 18:50:29 | Debug | plupload context initialized: #end#
+05.05.2012 18:50:29 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:50:29 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:50:29 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:50:29 | Debug | create plupload... #end#
+05.05.2012 18:50:36 | Debug | create plupload... #end#
+05.05.2012 18:52:39 | Debug | plupload context initialized: #end#
+05.05.2012 18:52:39 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:52:39 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:52:39 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:52:39 | Debug | create plupload... #end#
+05.05.2012 18:52:43 | Debug | create plupload... #end#
+05.05.2012 18:55:03 | Debug | plupload context initialized: #end#
+05.05.2012 18:55:03 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:55:03 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:55:03 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+05.05.2012 18:55:03 | Debug | create plupload... #end#
+05.05.2012 18:55:08 | Debug | create plupload... #end#
+07.05.2012 17:59:15 | Debug | plupload context initialized: #end#
+07.05.2012 17:59:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 17:59:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 17:59:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 17:59:15 | Debug | create plupload... #end#
+07.05.2012 17:59:25 | Debug | create plupload... #end#
+07.05.2012 18:01:05 | Debug | plupload context initialized: #end#
+07.05.2012 18:01:05 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:01:05 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:01:05 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:01:05 | Debug | create plupload... #end#
+07.05.2012 18:01:09 | Debug | create plupload... #end#
+07.05.2012 18:04:32 | Debug | plupload context initialized: #end#
+07.05.2012 18:04:32 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:04:32 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:04:32 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:04:32 | Debug | create plupload... #end#
+07.05.2012 18:04:37 | Debug | create plupload... #end#
+07.05.2012 18:05:53 | Debug | create plupload... #end#
+07.05.2012 18:16:56 | Debug | plupload context initialized: #end#
+07.05.2012 18:16:56 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:16:56 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:16:56 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:16:56 | Debug | create plupload... #end#
+07.05.2012 18:17:02 | Debug | create plupload... #end#
+07.05.2012 18:17:03 | Error | c:\Users\ileyberman\AppData\Local\Temp\Temporary ASP.NET Files\root\01180f6a\9c7f282a\App_Web_plupload.net.views.plupload.pluploaddynamicloader.cshtml.9a7d27ca.y0td9jga.0.cs(64): error CS0103: Der Name "OnDynamicComplete" ist im aktuellen Kontext nicht vorhanden. :    bei System.Web.Compilation.AssemblyBuilder.Compile()
+   bei System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   bei System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   bei System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bei System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bei System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   bei System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   bei System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   bei System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   bei System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   bei System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   bei System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   bei System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   bei System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   bei System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bei System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   bei System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName) #end#
+07.05.2012 18:18:11 | Debug | plupload context initialized: #end#
+07.05.2012 18:18:11 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:18:11 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:18:11 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:18:11 | Debug | create plupload... #end#
+07.05.2012 18:18:15 | Debug | create plupload... #end#
+07.05.2012 18:19:19 | Debug | plupload context initialized: #end#
+07.05.2012 18:19:19 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:19:19 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:19:19 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:19:19 | Debug | create plupload... #end#
+07.05.2012 18:19:23 | Debug | create plupload... #end#
+07.05.2012 18:21:48 | Debug | plupload context initialized: #end#
+07.05.2012 18:21:48 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:21:48 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:21:48 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:21:48 | Debug | create plupload... #end#
+07.05.2012 18:21:52 | Debug | create plupload... #end#
+07.05.2012 18:22:35 | Debug | plupload context initialized: #end#
+07.05.2012 18:22:35 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:22:35 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:22:35 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:22:35 | Debug | create plupload... #end#
+07.05.2012 18:22:54 | Debug | create plupload... #end#
+07.05.2012 18:27:08 | Debug | plupload context initialized: #end#
+07.05.2012 18:27:08 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:27:08 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:27:08 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:27:08 | Debug | create plupload... #end#
+07.05.2012 18:27:16 | Debug | create plupload... #end#
+07.05.2012 18:46:55 | Debug | plupload context initialized: #end#
+07.05.2012 18:46:55 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:46:55 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:46:55 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:46:55 | Debug | create plupload... #end#
+07.05.2012 18:46:59 | Debug | create plupload... #end#
+07.05.2012 18:47:18 | Debug | create plupload... #end#
+07.05.2012 18:59:37 | Debug | plupload context initialized: #end#
+07.05.2012 18:59:37 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:59:37 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:59:37 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+07.05.2012 18:59:37 | Debug | create plupload... #end#
+07.05.2012 18:59:41 | Debug | create plupload... #end#
+08.05.2012 06:33:40 | Debug | plupload context initialized: #end#
+08.05.2012 06:33:40 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:33:40 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:33:40 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:33:40 | Debug | create plupload... #end#
+08.05.2012 06:33:49 | Debug | create plupload... #end#
+08.05.2012 06:40:28 | Debug | plupload context initialized: #end#
+08.05.2012 06:40:28 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:40:28 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:40:28 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:40:28 | Debug | create plupload... #end#
+08.05.2012 06:40:38 | Debug | create plupload... #end#
+08.05.2012 06:45:29 | Debug | plupload context initialized: #end#
+08.05.2012 06:45:29 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:45:29 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:45:29 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:45:29 | Debug | create plupload... #end#
+08.05.2012 06:45:33 | Debug | create plupload... #end#
+08.05.2012 06:46:31 | Debug | plupload context initialized: #end#
+08.05.2012 06:46:31 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:46:31 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:46:31 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:46:31 | Debug | create plupload... #end#
+08.05.2012 06:46:35 | Debug | create plupload... #end#
+08.05.2012 06:46:53 | Debug | receive uploaded file... #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 06:46:53 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_111111.jpg' was successful saved! #end#
+08.05.2012 06:46:53 | Debug | receive uploaded file... #end#
+08.05.2012 06:46:53 | Debug | file 'desktop.ini' successfull received. #end#
+08.05.2012 06:46:53 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+08.05.2012 06:46:53 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'desktop1.ini' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'desktop11.ini' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'desktop111.ini' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'desktop1111.ini' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop11111.ini' was successful saved! #end#
+08.05.2012 06:46:53 | Debug | receive uploaded file... #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 06:46:53 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:46:53 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück111111.jpg' was successful saved! #end#
+08.05.2012 06:46:54 | Debug | receive uploaded file... #end#
+08.05.2012 06:46:54 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 06:46:54 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 06:46:54 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 06:46:54 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 06:46:54 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 06:46:54 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 06:46:54 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]1111.png' was successful saved! #end#
+08.05.2012 06:47:38 | Debug | create plupload... #end#
+08.05.2012 06:48:11 | Debug | receive uploaded file... #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 06:48:11 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1111111.jpg' was successful saved! #end#
+08.05.2012 06:48:11 | Debug | receive uploaded file... #end#
+08.05.2012 06:48:11 | Debug | file 'desktop.ini' successfull received. #end#
+08.05.2012 06:48:11 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop.ini' #end#
+08.05.2012 06:48:11 | Debug | file 'desktop.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'desktop1.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'desktop11.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'desktop111.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'desktop1111.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'desktop11111.ini' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\desktop111111.ini' was successful saved! #end#
+08.05.2012 06:48:11 | Debug | receive uploaded file... #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 06:48:11 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1111111.jpg' was successful saved! #end#
+08.05.2012 06:48:11 | Debug | receive uploaded file... #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 06:48:11 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'invert[1]1111.png' already exists, increase nameindex #end#
+08.05.2012 06:48:11 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]11111.png' was successful saved! #end#
+08.05.2012 06:48:49 | Debug | create plupload... #end#
+08.05.2012 06:48:52 | Debug | create plupload... #end#
+08.05.2012 06:48:54 | Debug | create plupload... #end#
+08.05.2012 06:49:01 | Debug | create plupload... #end#
+08.05.2012 06:56:27 | Debug | plupload context initialized: #end#
+08.05.2012 06:56:27 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:56:27 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:56:27 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:56:27 | Debug | create plupload... #end#
+08.05.2012 06:56:32 | Debug | create plupload... #end#
+08.05.2012 06:57:27 | Debug | plupload context initialized: #end#
+08.05.2012 06:57:27 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:27 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:27 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:27 | Debug | create plupload... #end#
+08.05.2012 06:57:31 | Debug | create plupload... #end#
+08.05.2012 06:57:58 | Debug | plupload context initialized: #end#
+08.05.2012 06:57:58 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:58 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:58 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:57:58 | Debug | create plupload... #end#
+08.05.2012 06:58:03 | Debug | create plupload... #end#
+08.05.2012 06:58:43 | Debug | plupload context initialized: #end#
+08.05.2012 06:58:43 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:58:43 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:58:43 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:58:43 | Debug | create plupload... #end#
+08.05.2012 06:58:47 | Debug | create plupload... #end#
+08.05.2012 06:59:14 | Debug | plupload context initialized: #end#
+08.05.2012 06:59:14 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:59:14 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:59:14 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 06:59:14 | Debug | create plupload... #end#
+08.05.2012 06:59:18 | Debug | create plupload... #end#
+08.05.2012 07:00:23 | Debug | plupload context initialized: #end#
+08.05.2012 07:00:23 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:00:23 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:00:23 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:00:23 | Debug | create plupload... #end#
+08.05.2012 07:00:26 | Debug | create plupload... #end#
+08.05.2012 07:04:20 | Debug | plupload context initialized: #end#
+08.05.2012 07:04:20 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:04:20 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:04:20 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:04:20 | Debug | create plupload... #end#
+08.05.2012 07:04:24 | Debug | create plupload... #end#
+08.05.2012 07:04:30 | Debug | create plupload... #end#
+08.05.2012 07:06:14 | Debug | plupload context initialized: #end#
+08.05.2012 07:06:14 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:06:14 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:06:14 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:06:14 | Debug | create plupload... #end#
+08.05.2012 07:12:15 | Debug | plupload context initialized: #end#
+08.05.2012 07:12:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:12:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:12:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:12:15 | Debug | create plupload... #end#
+08.05.2012 07:12:15 | Debug | Merged configuration after initialization: {"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:00 | Debug | plupload context initialized: #end#
+08.05.2012 07:16:00 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:16:00 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:16:00 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:16:00 | Debug | create plupload... #end#
+08.05.2012 07:16:00 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:00 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:06 | Debug | create plupload... #end#
+08.05.2012 07:16:06 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:06 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:10 | Debug | create plupload... #end#
+08.05.2012 07:16:10 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:16:10 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:17:05 | Debug | plupload context initialized: #end#
+08.05.2012 07:17:05 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:17:05 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:17:05 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:17:05 | Debug | create plupload... #end#
+08.05.2012 07:17:08 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:24:37 | Debug | plupload context initialized: #end#
+08.05.2012 07:24:37 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:24:37 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:24:37 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:24:37 | Debug | create plupload... #end#
+08.05.2012 07:24:37 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:24:37 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:27:15 | Debug | plupload context initialized: #end#
+08.05.2012 07:27:15 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:27:15 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:27:15 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:27:15 | Debug | create plupload... #end#
+08.05.2012 07:27:15 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:27:15 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:27:31 | Debug | receive uploaded file... #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:27:31 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_11111111.jpg' was successful saved! #end#
+08.05.2012 07:27:31 | Debug | receive uploaded file... #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:27:31 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück11111111.jpg' was successful saved! #end#
+08.05.2012 07:27:31 | Debug | receive uploaded file... #end#
+08.05.2012 07:27:31 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 07:27:31 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 07:27:31 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 07:27:31 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 07:27:32 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 07:27:32 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 07:27:32 | Debug | file 'invert[1]1111.png' already exists, increase nameindex #end#
+08.05.2012 07:27:32 | Debug | file 'invert[1]11111.png' already exists, increase nameindex #end#
+08.05.2012 07:27:32 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]111111.png' was successful saved! #end#
+08.05.2012 07:27:32 | Debug | receive uploaded file... #end#
+08.05.2012 07:27:32 | Debug | file 'no-photo.gif' successfull received. #end#
+08.05.2012 07:27:32 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo.gif' #end#
+08.05.2012 07:27:32 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo.gif' was successful saved! #end#
+08.05.2012 07:29:00 | Debug | plupload context initialized: #end#
+08.05.2012 07:29:00 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:29:00 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:29:00 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:29:00 | Debug | create plupload... #end#
+08.05.2012 07:29:00 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:29:00 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:29:13 | Debug | receive uploaded file... #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:29:13 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_111111111.jpg' was successful saved! #end#
+08.05.2012 07:29:13 | Debug | receive uploaded file... #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:29:13 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'Finka-Grundstück11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:29:13 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück111111111.jpg' was successful saved! #end#
+08.05.2012 07:29:14 | Debug | receive uploaded file... #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 07:29:14 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]1111.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]11111.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'invert[1]111111.png' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]1111111.png' was successful saved! #end#
+08.05.2012 07:29:14 | Debug | receive uploaded file... #end#
+08.05.2012 07:29:14 | Debug | file 'no-photo.gif' successfull received. #end#
+08.05.2012 07:29:14 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo.gif' #end#
+08.05.2012 07:29:14 | Debug | file 'no-photo.gif' already exists, increase nameindex #end#
+08.05.2012 07:29:14 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo1.gif' was successful saved! #end#
+08.05.2012 07:30:13 | Debug | create plupload... #end#
+08.05.2012 07:30:13 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:30:13 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:31:01 | Debug | create plupload... #end#
+08.05.2012 07:31:01 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:31:01 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:31:23 | Debug | receive uploaded file... #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:31:23 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'Finka-Grundstück111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1111111111.jpg' was successful saved! #end#
+08.05.2012 07:31:23 | Debug | receive uploaded file... #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 07:31:23 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]1111.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]11111.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]111111.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'invert[1]1111111.png' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]11111111.png' was successful saved! #end#
+08.05.2012 07:31:23 | Debug | receive uploaded file... #end#
+08.05.2012 07:31:23 | Debug | file 'no-photo.gif' successfull received. #end#
+08.05.2012 07:31:23 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo.gif' #end#
+08.05.2012 07:31:23 | Debug | file 'no-photo.gif' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'no-photo1.gif' already exists, increase nameindex #end#
+08.05.2012 07:31:23 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo11.gif' was successful saved! #end#
+08.05.2012 07:31:24 | Debug | receive uploaded file... #end#
+08.05.2012 07:31:24 | Debug | file 'SPKarte.jpg' successfull received. #end#
+08.05.2012 07:31:24 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\SPKarte.jpg' #end#
+08.05.2012 07:31:24 | Debug | file 'SPKarte.jpg' already exists, increase nameindex #end#
+08.05.2012 07:31:24 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\SPKarte1.jpg' was successful saved! #end#
+08.05.2012 07:31:45 | Debug | create plupload... #end#
+08.05.2012 07:31:45 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:31:45 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:32:22 | Debug | receive uploaded file... #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:32:22 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'Finka-Grundstück1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück11111111111.jpg' was successful saved! #end#
+08.05.2012 07:32:22 | Debug | receive uploaded file... #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:32:22 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:32:22 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1111111111.jpg' was successful saved! #end#
+08.05.2012 07:33:00 | Debug | create plupload... #end#
+08.05.2012 07:33:00 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:33:00 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:33:19 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:33:19 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:19 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_11111111111.jpg' was successful saved! #end#
+08.05.2012 07:33:20 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:33:20 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'Finka-Grundstück11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:20 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück111111111111.jpg' was successful saved! #end#
+08.05.2012 07:33:30 | Debug | create plupload... #end#
+08.05.2012 07:33:30 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:33:30 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:33:47 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück1.jpg' successfull received. #end#
+08.05.2012 07:33:47 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1.jpg' #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'Finka-Grundstück111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\Finka-Grundstück1111111111111.jpg' was successful saved! #end#
+08.05.2012 07:33:47 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1].png' successfull received. #end#
+08.05.2012 07:33:47 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1].png' #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1].png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]1.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]11.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]1111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]11111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]111111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]1111111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'invert[1]11111111.png' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\invert[1]111111111.png' was successful saved! #end#
+08.05.2012 07:33:47 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:47 | Debug | file 'no-photo.gif' successfull received. #end#
+08.05.2012 07:33:47 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo.gif' #end#
+08.05.2012 07:33:47 | Debug | file 'no-photo.gif' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'no-photo1.gif' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'no-photo11.gif' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\no-photo111.gif' was successful saved! #end#
+08.05.2012 07:33:47 | Debug | receive uploaded file... #end#
+08.05.2012 07:33:47 | Debug | file 'SPKarte.jpg' successfull received. #end#
+08.05.2012 07:33:47 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\SPKarte.jpg' #end#
+08.05.2012 07:33:47 | Debug | file 'SPKarte.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'SPKarte1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:33:47 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\SPKarte11.jpg' was successful saved! #end#
+08.05.2012 07:37:47 | Debug | create plupload... #end#
+08.05.2012 07:37:47 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:37:47 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:37:59 | Debug | create plupload... #end#
+08.05.2012 07:37:59 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:37:59 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:38:38 | Debug | receive uploaded file... #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:38:38 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:38:38 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_111111111111.jpg' was successful saved! #end#
+08.05.2012 07:39:07 | Debug | receive uploaded file... #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:39:07 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'bmw_izetta_111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:07 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1111111111111.jpg' was successful saved! #end#
+08.05.2012 07:39:27 | Debug | receive uploaded file... #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:39:27 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'bmw_izetta_1111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:27 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_11111111111111.jpg' was successful saved! #end#
+08.05.2012 07:39:49 | Debug | receive uploaded file... #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:39:49 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_1111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'bmw_izetta_11111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:39:49 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_111111111111111.jpg' was successful saved! #end#
+08.05.2012 07:40:49 | Debug | plupload context initialized: #end#
+08.05.2012 07:40:49 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:40:49 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:40:49 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 07:40:49 | Debug | create plupload... #end#
+08.05.2012 07:40:49 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:40:49 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:40:57 | Debug | create plupload... #end#
+08.05.2012 07:40:57 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:40:57 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:41:03 | Debug | receive uploaded file... #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:41:03 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_1111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_11111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'bmw_izetta_111111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:03 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1111111111111111.jpg' was successful saved! #end#
+08.05.2012 07:41:06 | Debug | create plupload... #end#
+08.05.2012 07:41:06 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 07:41:06 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 07:41:15 | Debug | receive uploaded file... #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1.jpg' successfull received. #end#
+08.05.2012 07:41:15 | Debug | try to save the file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_1.jpg' #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_11.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_11111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_11111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_11111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_11111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_111111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'bmw_izetta_1111111111111111.jpg' already exists, increase nameindex #end#
+08.05.2012 07:41:15 | Debug | file 'E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\PluploadUploadFolder\bmw_izetta_11111111111111111.jpg' was successful saved! #end#
+08.05.2012 14:33:44 | Debug | plupload context initialized: #end#
+08.05.2012 14:33:44 | Debug | embedded configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 14:33:44 | Debug | custom application configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 14:33:44 | Debug | merged configuration: Plupload.Net.Model.PluploadConfiguration #end#
+08.05.2012 14:33:44 | Debug | create plupload... #end#
+08.05.2012 14:33:44 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 14:33:44 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#
+08.05.2012 14:34:05 | Debug | create plupload... #end#
+08.05.2012 14:34:05 | Debug | merge configuration: {"CSSPluploadQueue":null,"CSSPluploadDotNet":null,"CSSLightBox":null,"JSjQuery":null,"JSjQueryUI":null,"JSPluploadFull":null,"JSPluploadQueue":null,"JSPluploadDotNet":null,"JSPluploadPreload":null,"JSPluploadDynamicLoader":null,"JSLightbox":null,"JSBrowserPlus":null,"Silverlight":null,"Flash":null,"UseCDN":null,"UploadDirectory":null,"LogDirectory":null,"SaveOptions":0,"Debug":null,"FileFilters":null,"Runtimes":null,"PluploadServerURL":null,"MaxFileSize":null,"MultipleQueues":null,"URLStreamUpload":null,"Resize":null,"AutoInit":null,"IncludeAllScriptsAndStyles":null,"ApplicationPath":"/"} #end#
+08.05.2012 14:34:05 | Debug | the new merged configuration:{"CSSPluploadQueue":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.plupload.queue.css","CSSPluploadDotNet":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.plupload.net.css","CSSLightBox":"~/Ressource/EmbeddedCSS?cssPath=Plupload.Net.Content.css.jquery.lightbox-0.5.css","JSjQuery":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-1.7.2.min.js","JSjQueryUI":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery-ui-1.8.11.min.js","JSPluploadFull":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.full.js","JSPluploadQueue":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.plupload.queue.js","JSPluploadDotNet":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.js","JSPluploadPreload":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.preload.js","JSPluploadDynamicLoader":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.plupload.net.dynamicloader.js","JSLightbox":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.jquery.lightbox-0.5.js","JSBrowserPlus":"~/Ressource/EmbeddedJavaScript?scriptPath=Plupload.Net.Scripts.browserplus-min.js","Silverlight":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.silverlight.xap","Flash":"~/Ressource/EmbeddedBinaryRessource?streamPath=Plupload.Net.Scripts.plupload.flash.swf","UseCDN":false,"UploadDirectory":"~/PluploadUploadFolder/","LogDirectory":"~/PluploadLogs/","SaveOptions":3,"Debug":true,"FileFilters":[{"title":"Images (.jpg,.jpeg,.png,.gif,.tiff,.ico)","extensions":"jpg,jpeg,png,gif,tiff,ico"},{"title":"Documents (.pdf,.doc,.docx,.ppt,.pptx)","extensions":"pdf,doc,docx,ppt,pptx"}],"Runtimes":"html5,gears,flash,silverlight,browserplus","PluploadServerURL":"~/Plupload/saveFile","MaxFileSize":"1024mb","MultipleQueues":true,"URLStreamUpload":true,"Resize":{"width":null,"height":null,"quality":null,"AspectRatio":null},"AutoInit":true,"IncludeAllScriptsAndStyles":true,"ApplicationPath":"/"} #end#

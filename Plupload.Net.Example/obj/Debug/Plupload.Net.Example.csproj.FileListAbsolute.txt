@@ -1,0 +1,7 @@
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\bin\Plupload.Net.Example.dll
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\bin\Plupload.Net.Example.pdb
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\bin\Plupload.Net.dll
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\bin\Plupload.Net.pdb
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\obj\Debug\ResolveAssemblyReference.cache
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\obj\Debug\Plupload.Net.Example.dll
+E:\DEVELOPMENT\Anwendungen\Plupload.Net\Plupload.Net.Example\obj\Debug\Plupload.Net.Example.pdb

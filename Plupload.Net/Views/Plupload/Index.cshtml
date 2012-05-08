@@ -1,12 +1,10 @@
 ﻿<!--
 The main view of the Plupload.Net
--->
-
+--> 
 @using Plupload.Net         
 @using Plupload.Net.Model   
 @using System.Web.Mvc.Html  
 @using System.Web.Mvc
-
 
 @inherits System.Web.Mvc.WebViewPage
 
@@ -14,69 +12,11 @@ The main view of the Plupload.Net
 
 
 <script type="text/javascript">        
+    var _tmpPluploadContext = @Html.Raw(config.ToJSON())
+    var _alreadyStarted = false;
 
-    //preloads external stylesheets and scripts
-    //preloads jQuery first if available
-    function StartUpLoadingComplete() {
-        if (typeof (PreloadingContext) != 'undefined')   
-        {
-            document.getElementById('plp_progress_outer').style.display = 'block';
-
-            if (HasResource('@config.JSjQuery')) {
-                    
-                var preloadingJQuery = new PreloadingContext(PreloadingJQueryComplete);
-                preloadingJQuery.AddScript("JSjQuery", "jQuery framework library", null, OnReceiveError, '@Url.Content(config.JSjQuery)');
-                preloadingJQuery.Load(); 
-                                                   
-            }
-            else
-            {
-                PreloadingJQueryComplete();
-            }
-        }
-        else 
-        {
-            StartUpLoadingError('error loading preloading script');
-        }
-    }
-
-    //preloads all scripts and styles
-    function PreloadingJQueryComplete() {
-        var preloadingContext2 = new PreloadingContext(OnAfterPreloading);
-
-        if (HasResource('@config.JSBrowserPlus'))
-            preloadingContext2.AddScript("JSBrowserPlus", "browser plus handling", null, OnReceiveError, '@Url.Content(config.JSBrowserPlus)');
-        
-        if (HasResource('@config.JSPluploadFull'))
-            preloadingContext2.AddScript("JSPluploadFull", "plupload core library", null, OnReceiveError, '@Url.Content(config.JSPluploadFull)');
-
-        if (HasResource('@config.JSPluploadQueue'))
-            preloadingContext2.AddScript("JSPluploadQueue", "plupload queue", null, OnReceiveError, '@Url.Content(config.JSPluploadQueue)');
-        
-        if (HasResource('@config.JSPluploadDotNet'))
-            preloadingContext2.AddScript("JSPluploadDotNet", "plupload dot net client component", null, OnReceiveError, '@Url.Content(config.JSPluploadDotNet)');
-
-        if (HasResource('@config.JSLightbox'))
-            preloadingContext2.AddScript("JSLightbox", "lightbox library", null, OnReceiveError, '@Url.Content(config.JSLightbox)');
-
-        if (HasResource('@config.CSSPluploadQueue'))
-            preloadingContext2.AddStylesheet("pluploadqueue", "plupload queue styles", null, OnReceiveError, '@Url.Content(config.CSSPluploadQueue)');
-
-        if (HasResource('@config.CSSLightBox'))
-            preloadingContext2.AddStylesheet("lightbox", "lightbx styles", null, OnReceiveError, '@Url.Content(config.CSSLightBox)');
-
-        if (HasResource('@config.CSSPluploadDotNet'))
-            preloadingContext2.AddStylesheet("pluploadDotNet", "plupload .net ui customizing", null, OnReceiveError, '@Url.Content(config.CSSPluploadDotNet)');
-        
-        
-        preloadingContext2.Load();            
-    }
-
-    function HasResource(resource)
-    {
-       return (typeof(resource) != 'undefined' && resource != '' && resource != ' ' && resource != 'null');
-    }
-
+    //onload function, preloades an external/embedded initial script.
+    //wich contains a progressbar
     function StartUp() {
         if (!_alreadyStarted)
             _alreadyStarted = true;
@@ -105,37 +45,36 @@ The main view of the Plupload.Net
         document.getElementsByTagName("head")[0].appendChild(script);
     }
 
+    //preloads external stylesheets and scripts
+    //preloads jQuery first if available
+    function StartUpLoadingComplete() {
+        _pluploadContext = _tmpPluploadContext;
+
+        if (typeof (PreloadingContext) != 'undefined') {
+            document.getElementById('plp_progress_outer').style.display = 'block';
+
+            if (HasResource(_pluploadContext.JSjQuery)) {
+
+                var preloadingJQuery = new PreloadingContext(PreloadingJQueryComplete);
+                preloadingJQuery.AddScript("JSjQuery", "jQuery framework library", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSjQuery));
+                preloadingJQuery.Load();
+
+            }
+            else {
+                PreloadingJQueryComplete();
+            }
+        }
+        else {
+            StartUpLoadingError('error loading preloading script');
+        }
+    }
+
+    //shows errors while loading script dynamically
     function StartUpLoadingError(err) {
         alert('error:' + err);
     }
 
-    function OnReceiveError(response, textStatus, errorThrown) {
-        alert("resp: " + response + " | textStatus: " + textStatus + " | errorThrown: " + errorThrown);
-    }
-
-    function OnAfterPreloading() {
-        
-        document.getElementById('plp_progress_outer').style.display = 'none';
-        
-        $("#uploader").pluploadQueue({
-            runtimes: '@config.Runtimes',
-            url: '@Url.Content(config.PluploadServerURL)',
-            max_file_size: '@config.MaxFileSize',
-            multiple_queues: @config.MultipleQueues.ToString().ToLower(),
-            urlstream_upload: @config.URLStreamUpload.ToString().ToLower(),
-            
-            resize: @if(config.Resize != null){ @Html.Raw(config.Resize.ToJSON())},
-            
-            filters: @Html.Raw(config.FileFilters.ToJSON()),
-            flash_swf_url: '@Url.Content(config.Flash)',
-            silverlight_xap_url: '@Url.Content(config.Silverlight)'
-        });
-
-        PLInitialize();
-    }
-
-    var _alreadyStarted = false;
-    window.onDomReady = initReady;
+    //dynamically registration of the onlload function
     function initReady(fn) {
         if (document.addEventListener) {
             document.addEventListener("DOMContentLoaded", fn, false);
@@ -144,13 +83,18 @@ The main view of the Plupload.Net
             document.onreadystatechange = function () { readyState(fn) }
         }
     }
-
     function readyState(func) {
         if (document.readyState == "interactive" || document.readyState == "complete") {
             func();
         }
     }
-    window.onDomReady(StartUp);
+
+    //loads styles and scripts automatically
+    if (_tmpPluploadContext.IncludeAllScriptsAndStyles){
+        window.onDomReady = initReady;
+        window.onDomReady(StartUp);
+    }
+
 </script>
 
 <div id="uploader">

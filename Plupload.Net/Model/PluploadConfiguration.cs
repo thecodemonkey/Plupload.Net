@@ -63,6 +63,12 @@ namespace Plupload.Net.Model
         public string JSPluploadPreload { get; set; }
 
         /// <summary>
+        /// gets or sets the url of the plupload.net.dynamicloader.js
+        /// needed to loading plupload dynamically using ajax.
+        /// </summary>
+        public string JSPluploadDynamicLoader { get; set; }
+
+        /// <summary>
         /// gets or sets the url of the lightbox script file.
         /// </summary>
         public string JSLightbox { get; set; }
@@ -145,6 +151,26 @@ namespace Plupload.Net.Model
         /// </summary>
         public ResizeProperty Resize { get; set; }
 
+        /// <summary>
+        /// gets or sets the flag for automatically initialization of the plupload.
+        /// this flag is usefull for dynamic loading of plupload using ajax. Just disable AutoInit=false
+        /// and call JsFunction 'InitializePlupload()'.
+        /// </summary>
+        public bool? AutoInit { get; set; }
+
+        /// <summary>
+        /// gets or sets the automatically including of all scripts and stylesheets
+        /// </summary>
+        public bool? IncludeAllScriptsAndStyles { get; set; }
+
+        public string ApplicationPath
+        {
+            get 
+            {
+                return HttpContext.Current.Request.ApplicationPath;
+            }
+            set { } 
+        }
 
         static PluploadConfiguration() 
         {
@@ -248,13 +274,17 @@ namespace Plupload.Net.Model
             merged.CSSLightBox = (configuration.CSSLightBox != null)? configuration.CSSLightBox : this.CSSLightBox;
             merged.CSSPluploadDotNet = (configuration.CSSPluploadDotNet != null) ? configuration.CSSPluploadDotNet : this.CSSPluploadDotNet;
             merged.CSSPluploadQueue = (configuration.CSSPluploadQueue != null) ? configuration.CSSPluploadQueue : this.CSSPluploadQueue;
-            merged.FileFilters = (configuration.FileFilters != null) ? configuration.FileFilters : this.FileFilters;
+
+
+            merged.FileFilters = (configuration.FileFilters != null && configuration.FileFilters.Count > 0) ? configuration.FileFilters : this.FileFilters;
 
             merged.JSBrowserPlus = (configuration.JSBrowserPlus != null) ? configuration.JSBrowserPlus : this.JSBrowserPlus;
             merged.JSjQuery = (configuration.JSjQuery != null) ? configuration.JSjQuery : this.JSjQuery;
             merged.JSjQueryUI = (configuration.JSjQueryUI != null) ? configuration.JSjQueryUI : this.JSjQueryUI;
             merged.JSLightbox = (configuration.JSLightbox != null) ? configuration.JSLightbox : this.JSLightbox;
             merged.JSPluploadDotNet = (configuration.JSPluploadDotNet != null) ? configuration.JSPluploadDotNet : this.JSPluploadDotNet;
+            merged.JSPluploadDynamicLoader = (configuration.JSPluploadDynamicLoader != null) ? configuration.JSPluploadDynamicLoader : this.JSPluploadDynamicLoader;
+
             merged.JSPluploadFull = (configuration.JSPluploadFull != null)? configuration.JSPluploadFull : this.JSPluploadFull;
             merged.JSPluploadQueue = (configuration.JSPluploadQueue != null)? configuration.JSPluploadQueue : this.JSPluploadQueue;
             merged.MaxFileSize = (configuration.MaxFileSize != null) ? configuration.MaxFileSize : this.MaxFileSize;
@@ -274,6 +304,9 @@ namespace Plupload.Net.Model
             merged.Debug = (configuration.Debug != null) ? configuration.Debug : this.Debug;
             merged.JSPluploadPreload = (configuration.JSPluploadPreload != null) ? configuration.JSPluploadPreload : this.JSPluploadPreload;
 
+            merged.AutoInit = (configuration.AutoInit.HasValue) ? configuration.AutoInit : this.AutoInit;
+            merged.IncludeAllScriptsAndStyles = (configuration.IncludeAllScriptsAndStyles.HasValue) ? configuration.IncludeAllScriptsAndStyles : this.IncludeAllScriptsAndStyles;
+            
             return merged;
         }
     }

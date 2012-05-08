@@ -18,7 +18,8 @@
  
 .srk_image a img
 {
-    border-width:0;    
+    border-width:0;   
+    cursor:pointer; 
 }
 
 .plupload_file_name

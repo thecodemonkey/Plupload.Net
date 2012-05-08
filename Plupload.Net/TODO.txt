@@ -1,4 +1,4 @@
-﻿
+﻿- embedded ressource caching
 - implement aspect ratio
 - größen anpassbar/konfigurierbar machen
 - merge configs. verwende die session in verbindung mit einer instanceID.

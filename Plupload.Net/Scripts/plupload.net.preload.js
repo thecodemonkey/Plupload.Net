@@ -1,8 +1,99 @@
-﻿
-function PreloadingContext(oncomplete) {
-    this.Items = new Array();
-    this.PreloadingCompleteFunction = oncomplete;
+﻿var _pluploadContext = null;
+
+
+/* Preloading Plupload.Net */
+
+//preloads all scripts and styles       
+function PreloadingJQueryComplete() {
+    var preloadingContext2 = new PreloadingContext(OnAfterPreloading);
+
+    if (HasResource(_pluploadContext.JSBrowserPlus))
+        preloadingContext2.AddScript("JSBrowserPlus", "browser plus handling", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSBrowserPlus));
+
+    if (HasResource(_pluploadContext.JSPluploadFull))
+        preloadingContext2.AddScript("JSPluploadFull", "plupload core library", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSPluploadFull));
+
+    if (HasResource(_pluploadContext.JSPluploadQueue))
+        preloadingContext2.AddScript("JSPluploadQueue", "plupload queue", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSPluploadQueue));
+
+    if (HasResource(_pluploadContext.JSPluploadDotNet))
+        preloadingContext2.AddScript("JSPluploadDotNet", "plupload dot net client component", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSPluploadDotNet));
+
+    if (HasResource(_pluploadContext.JSLightbox))
+        preloadingContext2.AddScript("JSLightbox", "lightbox library", null, OnReceiveError, ResolveServerPath(_pluploadContext.JSLightbox));
+
+    if (HasResource(_pluploadContext.CSSPluploadQueue))
+        preloadingContext2.AddStylesheet("pluploadqueue", "plupload queue styles", null, OnReceiveError, ResolveServerPath(_pluploadContext.CSSPluploadQueue));
+
+    if (HasResource(_pluploadContext.CSSLightBox))
+        preloadingContext2.AddStylesheet("lightbox", "lightbx styles", null, OnReceiveError, ResolveServerPath(_pluploadContext.CSSLightBox));
+
+    if (HasResource(_pluploadContext.CSSPluploadDotNet))
+        preloadingContext2.AddStylesheet("pluploadDotNet", "plupload .net ui customizing", null, OnReceiveError, ResolveServerPath(_pluploadContext.CSSPluploadDotNet));
+
+    preloadingContext2.Load();
 }
+
+function HasResource(resource) {
+    return (typeof (resource) != 'undefined' && resource != '' && resource != ' ' && resource != 'null');
+}
+
+function OnReceiveError(response, textStatus, errorThrown) {
+    alert("resp: " + response + " | textStatus: " + textStatus + " | errorThrown: " + errorThrown);
+}
+
+function OnAfterPreloading() {
+
+    document.getElementById('plp_progress_outer').style.display = 'none';
+
+    InitializePlupload();
+}
+
+
+function InitializePlupload() {
+    if (_pluploadContext.AutoInit) {
+        $("#uploader").pluploadQueue({
+            runtimes: _pluploadContext.Runtimes,
+            url: ResolveServerPath(_pluploadContext.PluploadServerURL),
+            max_file_size: _pluploadContext.MaxFileSize,
+            multiple_queues: _pluploadContext.MultipleQueues,
+            urlstream_upload: _pluploadContext.URLStreamUpload,
+
+            resize: (_pluploadContext.Resize != null) ? _pluploadContext.Resize : [],
+
+            filters: (_pluploadContext.FileFilters != null) ? _pluploadContext.FileFilters : [],
+            flash_swf_url: ResolveServerPath(_pluploadContext.Flash),
+            silverlight_xap_url: ResolveServerPath(_pluploadContext.Silverlight)
+        });
+
+        PLInitialize();
+    }
+}
+
+
+function ResolveServerPath(url) {
+    return url.replace("~/", _pluploadContext.ApplicationPath);
+}
+
+function IsScriptAllreadyLoaded(src) {
+    var scripts = document.getElementsByTagName("script");
+    if (typeof (scripts) != 'undefined' && scripts != null && scripts.length > 0) {
+        for (var x = 0; x < scripts.length; x++) {
+            if (scripts[x].src.toLowerCase() == src.toLowerCase()) return true;
+        }
+    }
+
+    return false;
+}
+
+/* END preloading Plupload.Net */
+
+
+/* common preloading stuff */   
+function PreloadingContext(oncomplete) {
+    this.Items = new Array();               
+    this.PreloadingCompleteFunction = oncomplete;
+}                                                       
 
 function PreloadingItem(name, description, oncomplete, onerror) {
     this.IsPreloadingComplete = false;
@@ -31,8 +122,13 @@ function ImageItem(name, description, oncomplete, onerror, imageURL)
     }
 }
 
-function ScriptItem(name, description, oncomplete, onerror, src) 
-{
+function ScriptItem(name, description, oncomplete, onerror, src) {
+    if (IsScriptAllreadyLoaded(src)) {
+        oncomplete();
+        return;
+    }
+
+
     PreloadingItem.apply(this, arguments);
     this.Src = src;
     this.LoadItem = function() {

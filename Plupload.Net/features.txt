@@ -6,6 +6,7 @@
 - logging
 - debug mode
 - exception handling(throws ex)
+- ajax loading
 
 Requirements:
 

@@ -37,15 +37,30 @@ namespace Plupload.Net.Model
         public const string VIEWS_RAZOR_UPLOAD_STYLE = "Plupload.Net.Views.Style.cshtml";
 
         /// <summary>
+        /// view for dynamic loading plupload using ajax
+        /// </summary>
+        public static string VIEWS_RAZOR_UPLOAD_DYNAMICLOAD = "Plupload.Net.Views.Plupload.PluploadDynamicLoader.cshtml";
+
+        /// <summary>
         /// session key for sessionspecific pluploadconfiguration
         /// </summary>
         public const string REQUEST_CONFIGURATION = "REQUEST_CONFIGURATION";
-        
-        
+                
         /// <summary>
         /// path of the embedded default polupload configuration
         /// </summary>
         public const string CONFIGURATION_MAIN = "Plupload.Net.Plupload.config";
-        
+
+        /// <summary>
+        /// script for dynamic loading of plupload using usajx
+        /// </summary>
+        public const string JS_DYNAMICLOADER = "Plupload.Net.Scripts.plupload.net.dynamicloader.js";
+
+
+        /// <summary>
+        /// startup script for dynamic loading of additional scripts
+        /// </summary>
+        public const string JS_PLUPLOAD_STARTUP = "Plupload.Net.Scripts.plupload.net.startup.js";
+
     }
 }

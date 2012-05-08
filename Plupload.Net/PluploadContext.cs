@@ -56,8 +56,12 @@ namespace Plupload.Net
         /// <param name="configuration"></param>
         public void SetConfiguration(PluploadConfiguration configuration)
         {
+            LogWriter.Debug("merge configuration: " + configuration.ToJSON());
+            
             if (configuration != null)
                 HttpContext.Current.Session[PluploadConstants.REQUEST_CONFIGURATION] = this.Merge(configuration);
+
+            LogWriter.Debug("the new merged configuration:" + PluploadContext.Instance.GetConfiguration().ToJSON());
         }
 
         /// <summary>

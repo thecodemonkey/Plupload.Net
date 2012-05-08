@@ -22,5 +22,10 @@ namespace Plupload.Net.Example.Controllers
         {
             return View();
         }
+
+        public ActionResult LoadPlupload() 
+        {
+            return this.View();
+        }
     }
 }

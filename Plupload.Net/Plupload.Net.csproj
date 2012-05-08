@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Model\ResizeProperty.cs" />
     <Compile Include="Model\SaveOptions.cs" />
     <Compile Include="PluploadContext.cs" />
@@ -109,8 +110,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Scripts\browserplus-min.js" />
-    <EmbeddedResource Include="Scripts\plupload.preload.js" />
+    <EmbeddedResource Include="Scripts\plupload.net.preload.js" />
     <Content Include="features.txt" />
+    <EmbeddedResource Include="Scripts\plupload.net.startup.js" />
+    <EmbeddedResource Include="Scripts\plupload.net.dynamicloader.js" />
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Plupload.CDN.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Plupload\PluploadDynamicLoader.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

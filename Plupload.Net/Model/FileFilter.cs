@@ -41,4 +41,17 @@ namespace Plupload.Net.Model
             return merged;
         }
     }
+
+    /*
+    public static class FileFilterExtensions 
+    {
+        public static List<FileFilter> Merge(this List<FileFilter> fileFilters, List<FileFilter> newFileFilters) 
+        {
+            if (newFileFilters == null)
+            
+            if (fileFilters == null || fileFilters.Count == 0) return newFileFilters;
+
+            
+        }
+    }*/
 }

@@ -28,6 +28,15 @@ namespace Plupload.Net.Controllers
         }
 
         /// <summary>
+        /// renders the placeholder view, wich contains script logic to loading plupload via ajax
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult PluploadDynamicLoader() 
+        {
+            return this.EmbeddedPartialView(PluploadConstants.VIEWS_RAZOR_UPLOAD_DYNAMICLOAD, this.Configuration);
+        }
+
+        /// <summary>
         /// OLD STUFF optionaly IFrame version of the main view.
         /// </summary>
         /// <returns></returns>
